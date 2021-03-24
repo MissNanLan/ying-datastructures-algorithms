@@ -1,3 +1,4 @@
+'use strict'
 import BubbleSort from 'core/algorithms/sorting/bubbleSort'
 import BucketSort from 'core/algorithms/sorting/bucketSort'
 import CocktailSort from 'core/algorithms/sorting/cocktailSort'
@@ -5,10 +6,7 @@ import CountSort from 'core/algorithms/sorting/countSort'
 import HeapSort from 'core/algorithms/sorting/heapSort'
 import InsertionSort from 'core/algorithms/sorting/insertionSort'
 import MergeSort from 'core/algorithms/sorting/mergeSort'
-import {
-    QuickSort,
-    QuickSort3,
-} from 'core/algorithms/sorting/quickSort'
+import { QuickSort, QuickSort3 } from 'core/algorithms/sorting/quickSort'
 import RadixSort from 'core/algorithms/sorting/radixSort'
 import SelectionSort from 'core/algorithms/sorting/selectionSort'
 import ShellSort from 'core/algorithms/sorting/shellSort'
